@@ -1,0 +1,331 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+
+ 
+}
+a{
+text-decoration:none;
+color: #BDBDBD;
+}
+html{
+ height:160vh;
+  
+}
+body{
+  background-color: #141414;
+  color: #BDBDBD;
+  font-family:  Arial;
+  overflow-x: hidden;
+  height:160vh;
+ 
+}
+
+
+.logo{
+  width: 90px;
+  margin-left: 40px;
+  margin-top: 10px;
+  
+}
+
+.dropdown{
+  position: relative;
+  left: 100px;
+  
+  
+}
+.dropdown-content{
+display: flex;
+position: relative;
+top: -50px;
+left: 50px;
+
+
+}
+.dropdown-content p{
+  margin: 25px 10px;
+
+}
+.dropdown p:hover{
+font-weight: bolder; color: white;
+}
+.browse-el{
+  display: none;
+}
+
+.float-op{
+  position: relative;
+ top: -37px;
+  left:-120px;
+}
+
+.search{
+  margin: 0 auto;
+ top:38px;
+  border: 2px solid #ffffff;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+ 
+  
+}
+.search::after{
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 10px;
+  top:70%;
+  left:10px;
+  background: #ffffff;
+  transform: rotate(-50deg);
+  border-radius: 10px;
+  
+}
+
+.user-img{
+   position: relative;
+   top: -40px;
+  left:6px; 
+}
+.user-img img{
+border-radius: 5px;  
+}
+
+.span-icon{
+  width: 0px;
+  height: 0px;
+  border-top: 8px solid #E5E5E5;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  position: absolute;
+  margin: 10px -0px;
+  
+}
+
+.dropbtn {
+  background-color: #ffffff;
+  cursor: pointer;
+  transform: translateY(-50%);
+  transform-origin: 50% 0%;
+  width: 15px;
+  height: 10px;
+  border-radius: 28px 28px 0 0;
+
+}
+
+.dropbtn::after{
+  content: "";
+  position: absolute;
+  border-radius: 100px;
+  width: 12px;
+  height: 12px;
+  top:109%;
+  left:10%;
+  background-color: #FFFFFF;   
+ 
+}
+.dropbtn:before{
+  content: "";
+  position: absolute;
+  border-top-left-radius: 1100px;
+  border-top-right-radius: 1100px;
+  width: 22px;
+  height: 10px;
+  top:70%;
+  left:-23%;
+  background-color: #FFFFFF;
+  
+}
+.dropdown2 {
+  position: relative;
+  top: -35px;
+  left:-66px;
+  display: inline-block;
+  z-index: 3;
+}
+
+.span-style{
+  width: 0px;
+  height: 0px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 10px solid #E5E5E5;
+  position: relative;
+  top: -25px;
+  left: 345px;
+  
+  
+}
+
+.dropdown-img{
+  display: flex;
+  border-bottom: solid 2px #343434;
+ margin-top: 8px;
+
+  }
+
+
+/* imagen y logo */
+.between-img-div{
+   position: relative;
+   top: 10px;
+}
+.logo-and-text{
+  position: relative;
+  margin-left: 40px;
+  margin-top: 60px;
+ top: -630px;
+
+}
+.between-img{
+  height: 530px;
+  width: 100%;
+  
+}
+
+.series-synopsis{
+  margin-top: 10px;
+ 
+}
+button{
+  margin-top: 20px;
+  
+}
+.svg-radius{
+  width: 20px;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.info-btn{
+  margin-left: 20px;
+  position: relative;
+  top: -17px;
+}
+.color-primary{
+background-color:#FFFFFF ;
+border: none;
+width: 95px;
+  height: 40px;
+  border-radius: 3px;
+}
+.button-secondary{
+  background-color: #4F4F4F;
+  border: none;
+  width: 110px;
+  height: 40px;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+
+
+
+.all-drama{
+  background-color: #141414;
+  position: relative;
+  top: -640px;
+  
+}
+
+.suspenso{
+  margin-left: 30px;
+  margin-top: 70px;
+
+  margin-top: 0px;
+}
+
+
+.tv-dramas{
+  margin-left: 30px;
+  margin-top: 70px;
+}
+
+
+
+.all-movie-div{
+  display: flex;
+}
+
+
+
+.prev, .next {
+  cursor: pointer;
+  position: relative;;
+  top: -100px;
+  left: -10px;
+  width: auto;
+  padding: 26px;
+  margin-top: -22px;
+  color: white;
+  background-color: none;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+ 
+}
+
+.next {
+ float:right;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+  
+}
+
+
+
+.my-list{
+  margin-left: 40px;
+  margin-top: -70px;
+}
+.second-div-list img{
+  border-radius: 4px;
+ margin-left:10px
+}
+.second-div-list{
+  display: flex;
+
+}
+.list-div-width{
+  width: 100%;
+  cursor: pointer;
+  overflow-x: auto;
+  margin-top: 40px;
+}
+
+/* Footer */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  font-size: 13px;
+  color: #676767;
+  margin-top: 40px;
+  
+}
+.grid-item {
+  padding: 15px;
+  text-align: center;
+}
+.grid-container:hover{
+    cursor: pointer;
+}
+.grid-item span{
+    margin-left: 10px;
+    font-size: large;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.parent-div{
+margin-bottom: -50px;
+}

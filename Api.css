@@ -1,0 +1,46 @@
+#img1, #img2, #img3 {
+    width: 250px;
+    height:250px;
+ }
+
+ .text-center{
+margin-left: 500px;
+border-style: groove;
+width: 250px;
+border-color:  blanchedalmond;
+border-top-width: 10px;
+border-width:10px ;
+
+ }
+
+
+ p{
+    background-color: blanchedalmond;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 50px;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ button{
+    margin-top: 30px;
+    margin-left: 540px;
+    height:200px;
+    width:200px;
+    background:rgba(255, 242, 2, 0.917);
+    border-radius:20px;
+    text-transform:uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    cursor:pointer;
+    font-size: 30px;
+    border-style: groove;
+    border-top-width: 10px;
+     border-width:10px ;
+     border-color: blanchedalmond;
+ }
+
+ body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/02/11/14/59/background-1193727_1280.png);
+background-attachment: fixed; 
+}

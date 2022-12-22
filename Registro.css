@@ -1,0 +1,168 @@
+body {
+  width: 428px;
+  height: 926px;
+  margin-left: 350px;
+  margin-right: 100px;
+}
+main {
+  width: 428px;
+  height: 926px;
+  background-color: #ff9fe4;
+  border-style: groove;
+  border-color: rgb(0, 0, 0);
+  border-radius: 6px;
+}
+.ima {
+  height: 249px;
+  width: 428px;
+  left: 0px;
+  top: 0px;
+  border-radius: 2px;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+.log {
+  height: 200px;
+  width: 200px;
+  left: 117px;
+  border-radius: 0px;
+  padding-left: 130px;
+}
+
+p1 {
+  top: 500px;
+  position: absolute;
+  width: 405px;
+  font-family: "Impact";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+  color: #ffffff;
+  left: 370px;
+  text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(255, 255, 255),
+    0 -1px rgb(255, 255, 255);
+}
+
+.all-item {
+  padding-top: 30px;
+}
+
+.alerta {
+  font-size: 20px;
+  border-style: inset;
+  background-color: white;
+  color: static;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-radius: 9px;
+  margin-bottom: 0px;
+  height: 50px;
+}
+
+.btn-sig:hover {
+  border-style: inset;
+  background-color: white;
+  color: static;
+  text-align: center;
+  background-color: rgb(213, 115, 255);
+  color: rgb(255, 255, 255);
+  border-radius: 9px;
+  width: 200px;
+  height: 50px;
+}
+
+.btn1 {
+  font-size: 20px;
+  border-style: inset;
+  background-color: rgb(255, 157, 237);
+  color: static;
+  text-align: center;
+  margin-left: 40px;
+  border-radius: 9px;
+
+  margin-top: 40px;
+  margin-left: 110px;
+  width: 200px;
+  height: 50px;
+}
+
+p {
+  font-family: "Impact";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 37px;
+  margin-top: 10px;
+  color: black;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 179, 238);
+  margin-left: 60px;
+  margin-top: 90px;
+  padding: 10px;
+  border-radius: 25px;
+  border-style: hidden;
+  width: 300px;
+}
+
+.btn {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  z-index: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+@media (max-width: 460px) {
+  body {
+    margin-left: 0px;
+  }
+
+  main {
+    width: 380px;
+
+    margin-left: 2px;
+  }
+
+  img.ima {
+    width: 380px;
+  }
+
+  img.log {
+    padding-left: 100px;
+  }
+
+  p1 {
+    left: 0px;
+  }
+.formulario{
+  margin-left: 20px;
+}
+
+.btn1{
+  
+  margin-left: 90px;
+
+}
+
+
+
+
+
+}
+
+

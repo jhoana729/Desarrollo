@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="Calculadora.css">
+    <script src="Calculadora.js"></script>
+</head>
+<body>
+    <main>
+        <p>CALCULADORA</p>
+        <div class="contenedor">
+            <div class="wapper">
+                <div class="calculadora">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" id="resultado" readonly="">
+                            <input type="button" value="C" onclick="clr()">
+                        </div>
+                    </form>
+                    <ul class="lista_num">
+                        <li><input type="button" name="" value="1" onclick="result('1')"></li>
+                        <li><input type="button" name="" value="2" onclick="result('2')"></li>
+                        <li><input type="button" name="" value="3" onclick="result('3')"></li>
+                        <li><input type="button" name="" value="4" onclick="result('4')"></li>
+                        <li><input type="button" name="" value="5" onclick="result('5')"></li>
+                        <li><input type="button" name="" value="6" onclick="result('6')"></li>
+                        <li><input type="button" name="" value="7" onclick="result('7')"></li>
+                        <li><input type="button" name="" value="8" onclick="result('8')"></li>
+                        <li><input type="button" name="" value="9" onclick="result('9')"></li>
+                        <li><input type="button" name="" value="." onclick="result('.')"></li>
+                        <li><input type="button" name="" value="0" onclick="result('0')"></li>
+                        <li><input type="button" name="" value="=" onclick="solve()"></li>
+                    </ul>
+                    <div class="btn_group">
+                        <ul class="list_btn">
+                            <li><input type="button" name="" value="+" onclick="result('+')"></li>
+                            <li><input type="button" name="" value="-" onclick="result('-')"></li>
+                            <li><input type="button" name="" value="*" onclick="result('*')"></li>
+                            <li><input type="button" name="" value="/" onclick="result('/')"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,191 @@
+.btn {
+  font-size: 20px;
+  border-style: inset;
+  background-color: #f59fff8e;
+  color: static;
+  text-align: center;
+  border-radius: 9px;
+  width: 200px;
+  height: 50px;
+  margin-right: 0px;
+  width: 100px;
+  height: 30px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+body {
+  width: 428px;
+  height: 926px;
+  margin-left: 350px;
+  margin-right: 100px;
+}
+main {
+  width: 428px;
+  height: 926px;
+  background-color: #ff9fe4;
+  border-style: groove;
+  border-color: rgb(0, 0, 0);
+  border-radius: 6px;
+}
+.ima {
+  width: 428px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  border-radius: 2px;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+.log {
+  height: 200px;
+  width: 200px;
+  left: 117px;
+  border-radius: 0px;
+  padding-left: 130px;
+}
+
+p1 {
+  top: 310px;
+  position: absolute;
+  width: 405px;
+  font-family: "Impact";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+  color: #ffffff;
+  left: 370px;
+  text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(255, 255, 255),
+    0 -1px rgb(255, 255, 255);
+}
+
+p {
+  font-family: "Impact";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 37px;
+  margin-top: 10px;
+  color: black;
+}
+
+.jarabe {
+  margin-top: 5px;
+  width: 140px;
+  right: 407px;
+  border-radius: 15px;
+  max-width: 100%;
+}
+
+.desodo {
+  margin-top: 5px;
+  width: 160px;
+  right: 407px;
+  border-radius: 19px;
+  max-width: 100%;
+  padding-bottom: 20px;
+}
+
+.ibu {
+  margin-top: 5px;
+  width: 135px;
+  border-radius: 10px;
+  max-width: 100%;
+  height: 130px;
+}
+
+.talco {
+  margin-top: 5px;
+  width: 180px;
+  height: 120px;
+  border-radius: 40px;
+  max-width: 100%;
+}
+
+.card {
+  background-color: aqua;
+  width: 150px;
+  height: 280px;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+.card-izq {
+  float: left;
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  border-style: inset;
+  background-color: #fcff74;
+  border-radius: 9px;
+  width: 100px;
+  height: 30px;
+  margin-left: 20px;
+  font-family: "Imprima", sans-serif;
+}
+
+h1 {
+  font-size: 25px;
+  font-family: "Imprima", sans-serif;
+}
+
+.card-der {
+  float: right;
+  margin-top: 40px;
+  margin-right: 30px;
+}
+
+@media (max-width: 460px) {
+  body {
+    margin-left: 0px;
+    height: 1000px;
+
+  }
+
+  main {
+    width: 380px;
+    margin-top: 10px;
+  }
+
+  img.ima {
+    width: 380px;
+  }
+
+  img.log {
+    padding-left: 100px;
+  }
+
+  p1 {
+    left: 0px;
+  }
+
+  .formulario {
+    margin-left: 30px;
+  }
+
+  .btn1 {
+    margin-left: 90px;
+  }
+
+  .card-der {
+    margin-top: 40px;
+    position: initial;
+    margin-right: 20px;
+
+  }
+
+  .card-der.card {
+    position: absolute;
+  }
+}

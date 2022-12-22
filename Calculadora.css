@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2021/11/14/07/09/crumpled-paper-6793451_1280.jpg);
+}
+.wapper{
+    max-width:300px;
+    margin:80px auto 0;
+}
+.calculadora{
+    display: flex;
+    flex-wrap: wrap;
+}
+.calculadora ul {
+    list-style: none;
+    padding: 0;
+    margin:2px 0;
+}
+.lista_num {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn_group { 
+    width: 20%;
+    text-align: center;
+}
+.calculadora ul li {
+    width: 33.33%;
+    text-align: center;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f4c6ff;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    cursor: pointer;
+}
+.calculadora ul.list_btn li {
+    width: 100%;
+    background: #ed9cff;
+    color: #000;
+    border-bottom: 1px solid #fff;
+    font-size: 26px;
+    font-weight: 700;
+}
+.calculadora ul.list_btn li:focus{
+    background:#7693ff;
+}
+.calculadora form {
+    width: 100%;
+}
+.calculadora form .form-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-group input[type="text"]{
+    height: 38px;
+    padding: 5px;
+    outline: 0;
+    width: 80%;
+}
+.form-group input[type="button"]{
+    width: 20%;
+    height: 38px;
+    border: 0;
+    background: #ed9cff;
+    cursor: pointer;
+    outline: 0;
+    border-left: 1px solid #fff;
+}
+.calculadora ul li input[type="button"]{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    outline: 0;
+}
+.resultado{
+    width: 100%;
+    display: block;
+    margin-bottom: 2px;
+}
+
+p{font-size: 60px;
+text-align: center;
+font-weight: bold;
+color: #fff;
+}
